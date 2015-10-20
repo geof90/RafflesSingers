@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Raffles Singers</title>
- <link href="localhost:4000/atom.xml" rel="self"/>
- <link href="localhost:4000/"/>
- <updated>2015-10-20T03:13:29-07:00</updated>
- <id>localhost:4000</id>
+ <link href="rafflessingers.org/atom.xml" rel="self"/>
+ <link href="rafflessingers.org/"/>
+ <updated>2015-10-20T03:17:06-07:00</updated>
+ <id>rafflessingers.org</id>
  <author>
    <name></name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Example content</title>
-   <link href="localhost:4000/jekyll/example/2014-03-01-example-content.html"/>
+   <link href="rafflessingers.org/jekyll/example/2014-03-01-example-content.html"/>
    <updated>2014-03-01T00:00:00-08:00</updated>
-   <id>localhost:4000/jekyll/example/2014-03-01-example-content</id>
+   <id>rafflessingers.org/jekyll/example/2014-03-01-example-content</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
