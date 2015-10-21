@@ -59,8 +59,11 @@ p, span, ul, li {
   margin-top: 0.5em;
 }
 
-.navbar-nav {
-  margin-right: 2em; }
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin-right: 2em; 
+  }
+}
 
 .navbar-default .navbar-brand:hover {
   color: #aaaaaa; }
@@ -72,7 +75,7 @@ p, span, ul, li {
 
 .navbar-toggle {
   margin-top: 1.5em;
-  margin-right: 3em; }
+}
 
 #gallery {
   height: 100%;
@@ -91,8 +94,10 @@ p, span, ul, li {
   .homecontent{
     padding-top: 2em;
   }
-  .hrwrap {
-    width: percentage(7/12);
+  @media (min-width: 768px) {
+    .hrwrap {
+      width: percentage(7/12);
+    }
   }
 }
 
@@ -104,10 +109,15 @@ p, span, ul, li {
   top: 0px;
   height: 110px;
   /* vertical-align: middle; */
-  margin-left: -2.8em;
+  margin-left: -2em;
   hr {
     position:fixed;
     width: inherit;
+  }
+}
+@media (min-width: 768px) {
+  .hrwrap {
+    margin-left: -2.8em;
   }
 }
 

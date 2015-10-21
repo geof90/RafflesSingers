@@ -51,8 +51,9 @@ p, span, ul, li {
   text-transform: uppercase;
   margin-top: 0.5em; }
 
-.navbar-nav {
-  margin-right: 2em; }
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin-right: 2em; } }
 
 .navbar-default .navbar-brand:hover {
   color: #aaaaaa; }
@@ -63,8 +64,7 @@ p, span, ul, li {
   background: none; }
 
 .navbar-toggle {
-  margin-top: 1.5em;
-  margin-right: 3em; }
+  margin-top: 1.5em; }
 
 #gallery {
   height: 100%;
@@ -80,8 +80,9 @@ p, span, ul, li {
   padding-top: 5em; }
   .homecontentwrap .homecontent {
     padding-top: 2em; }
-  .homecontentwrap .hrwrap {
-    width: 58.33333%; }
+  @media (min-width: 768px) {
+    .homecontentwrap .hrwrap {
+      width: 58.33333%; } }
 
 .hrwrap {
   width: 100%;
@@ -91,10 +92,14 @@ p, span, ul, li {
   top: 0px;
   height: 110px;
   /* vertical-align: middle; */
-  margin-left: -2.8em; }
+  margin-left: -2em; }
   .hrwrap hr {
     position: fixed;
     width: inherit; }
+
+@media (min-width: 768px) {
+  .hrwrap {
+    margin-left: -2.8em; } }
 
 .videocontentwrap {
   padding: 0em 3em;
