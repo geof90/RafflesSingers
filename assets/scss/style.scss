@@ -114,6 +114,7 @@ p, span, ul, li {
     position:fixed;
     width: inherit;
   }
+  z-index:999;
 }
 @media (min-width: 768px) {
   .hrwrap {
@@ -170,5 +171,14 @@ hr.style-eight:after {
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: lighten($background-color, 10%);
+    background-color: lighten($background-color, 10%);
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.videolabel {
+    position: relative;
+    top: 1.4em;
 }

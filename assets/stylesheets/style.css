@@ -92,7 +92,8 @@ p, span, ul, li {
   top: 0px;
   height: 110px;
   /* vertical-align: middle; */
-  margin-left: -2em; }
+  margin-left: -2em;
+  z-index: 999; }
   .hrwrap hr {
     position: fixed;
     width: inherit; }
@@ -146,3 +147,10 @@ hr.style-eight:after {
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: #2b2b2b; }
+
+.img-responsive {
+  margin: 0 auto; }
+
+.videolabel {
+  position: relative;
+  top: 1.4em; }
