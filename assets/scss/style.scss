@@ -6,7 +6,7 @@ html, body {
   background: $background-color;
   color: $foreground-color;
   font-family: $font;
-  font-weight: 300;
+  font-weight: 400;
   height: 100%;
   width: 100%;
   padding-top:0em;
@@ -22,12 +22,12 @@ h1, h2, h3, h4, h5, h6 {
 p, span, ul, li {
   color: $foreground-color;
   font-family: $font;
-  font-weight: 300; 
+  font-weight: 400; 
 }
 
 .navbar-default .navbar-nav > li > a {
   font-family: $font;
-  font-weight: 300;
+  font-weight: 400;
   color: $foreground-color; 
   background: $background-color !important;
 }

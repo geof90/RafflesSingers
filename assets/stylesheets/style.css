@@ -3,7 +3,7 @@ html, body {
   background: #111;
   color: #ddd;
   font-family: "Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   height: 100%;
   width: 100%;
   padding-top: 0em;
@@ -18,11 +18,11 @@ h1, h2, h3, h4, h5, h6 {
 p, span, ul, li {
   color: #ddd;
   font-family: "Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;
-  font-weight: 300; }
+  font-weight: 400; }
 
 .navbar-default .navbar-nav > li > a {
   font-family: "Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #ddd;
   background: #111 !important; }
 
